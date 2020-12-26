@@ -39,6 +39,7 @@ Within the javaao.ann.basic package, HoangzIris builds a multilayer perceptron f
 encoding the output values which the multilayer perceptron generates, and tests the multilayer perceptron I designed and trained. 
 
 #Project
+
 Goal is to use a GA to train an MLP for the XOR gate (Ciruit1), implement and test the feedforward equations, then integrate the GA support to learn the XOR gate (Circuit1).
 
 XorObjective.java in javaai.metah.ga generates uniform random deviates for the weights within the range of the constraints.
