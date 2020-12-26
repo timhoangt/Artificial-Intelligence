@@ -35,7 +35,7 @@ This allows all of the data to become normalized between -1 and 1.
 Within the javaai.ann.output package, HoangEquilateralDecoding does the encoding and tests it using this minimum distance method by adding Gaussian noise to simulate hypothetical ANN output.
 That is, we take the ideal values and perturb them with normally distributed noise with mean 0 and standard deviation 1 scaled by some perturbance value.
 
-Within the javaao.ann.basic package, HoangzIris builds a multilayer perceptron for the iris data. It does this by developing normalized input for the MLP, 
+Within the javaai.ann.basic package, HoangzIris builds a multilayer perceptron for the iris data. It does this by developing normalized input for the MLP, 
 encoding the output values which the multilayer perceptron generates, and tests the multilayer perceptron I designed and trained. 
 
 # Project
