@@ -95,12 +95,10 @@ public class HoangzIris {
 
         // Go through each value in the list
         for(Double value: list) {
-            // TODO: if value greater than range[HI], update range[HI].
             if(value > range[HI]){
                 range[HI] = value;
             }
 
-            // TODO: if value less than range[LO], update range[LO].
             if(value < range[LO]){
                 range[LO] = value;
             }
