@@ -38,7 +38,7 @@ That is, we take the ideal values and perturb them with normally distributed noi
 Within the javaao.ann.basic package, HoangzIris builds a multilayer perceptron for the iris data. It does this by developing normalized input for the MLP, 
 encoding the output values which the multilayer perceptron generates, and tests the multilayer perceptron I designed and trained. 
 
-#Project
+# Project
 
 Goal is to use a GA to train an MLP for the XOR gate (Ciruit1), implement and test the feedforward equations, then integrate the GA support to learn the XOR gate (Circuit1).
 
