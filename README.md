@@ -1,7 +1,17 @@
 # Artificial Intelligence
 Created in IntelliJ for simplicity when running, make sure you follow the .idea file configurations.
 
-Video showing a walkthrough of the programs can be found here
+# Project
+
+Goal is to use a GA to train an MLP for the XOR gate (Ciruit1), implement and test the feedforward equations, then integrate the GA support to learn the XOR gate (Circuit1).
+
+XorObjective.java in javaai.metah.ga generates uniform random deviates for the weights within the range of the constraints.
+It then returns double-precision value representing the “fitness” of the interneuron weights based on batch learning.
+Lastly, it deploys the DoubleArrayGenome class properly.
+
+XorGa.java is the final driver program that makes the GA run, converge, and learn the XOR gate.
+
+# Labs
 
 In javaai.aann the class ML1 extends  BaseML. It uses BaseML to load the data from the CSV file then using that data, 
 populates a hashmap for classification purposes.
@@ -36,14 +46,4 @@ Within the javaai.ann.output package, HoangEquilateralDecoding does the encoding
 That is, we take the ideal values and perturb them with normally distributed noise with mean 0 and standard deviation 1 scaled by some perturbance value.
 
 Within the javaai.ann.basic package, HoangzIris builds a multilayer perceptron for the iris data. It does this by developing normalized input for the MLP, 
-encoding the output values which the multilayer perceptron generates, and tests the multilayer perceptron I designed and trained. 
-
-# Project
-
-Goal is to use a GA to train an MLP for the XOR gate (Ciruit1), implement and test the feedforward equations, then integrate the GA support to learn the XOR gate (Circuit1).
-
-XorObjective.java in javaai.metah.ga generates uniform random deviates for the weights within the range of the constraints.
-It then returns double-precision value representing the “fitness” of the interneuron weights based on batch learning.
-Lastly, it deploys the DoubleArrayGenome class properly.
-
-XorGa.java is the final driver program that makes the GA run, converge, and learn the XOR gate.
+encoding the output values which the multilayer perceptron generates, and tests the multilayer perceptron I designed and trained.
